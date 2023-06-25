@@ -1,0 +1,11 @@
+@import "bulma";
+@import "function";
+@import "direct_upload";
+
+.notification {
+  border-radius: 0;
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
